@@ -18,6 +18,7 @@ These are the available packages in this repository.
 | [dxcaptcha_flutter](./packages/dxcaptcha_flutter) | [![Pub Version](https://img.shields.io/pub/v/dxcaptcha_flutter)](https://pub.dev/packages/dxcaptcha_flutter)  |
 | [flutter_aliyun_oss](./packages/flutter_aliyun_oss)               | [![Pub Version](https://img.shields.io/pub/v/flutter_aliyun_oss)](https://pub.dev/packages/flutter_aliyun_oss)  |
 | [hcaptcha_flutter](./packages/hcaptcha_flutter)   | [![Pub Version](https://img.shields.io/pub/v/hcaptcha_flutter)](https://pub.dev/packages/hcaptcha_flutter) |
+| [minio_flutter](./packages/minio_flutter)   | [![Pub Version](https://img.shields.io/pub/v/minio_flutter)](https://pub.dev/packages/minio_flutter) |
 
 ## License
 
