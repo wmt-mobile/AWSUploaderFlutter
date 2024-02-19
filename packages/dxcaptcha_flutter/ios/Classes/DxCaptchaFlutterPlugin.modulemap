@@ -1,0 +1,10 @@
+framework module dxcaptcha_flutter {
+  umbrella header "dxcaptcha_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+
+  explicit module Test {
+    header "DxCaptchaFlutterPlugin_Test.h"
+  }
+}

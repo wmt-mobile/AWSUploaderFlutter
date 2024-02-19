@@ -1,0 +1,10 @@
+name: flutterfleet_project
+repository: https://github.com/FlutterFleet/flutterfleet
+
+ide:
+  intellij:
+    enabled: true
+    moduleNamePrefix: 'ff_'
+
+packages:
+  - packages/*
