@@ -19,5 +19,4 @@ class MethodChannelDxCaptchaFlutter extends DxCaptchaFlutterPlatform {
   Future<void> show(Map<String, dynamic> config) {
     return methodChannel.invokeMethod<void>('show', config);
   }
-
 }

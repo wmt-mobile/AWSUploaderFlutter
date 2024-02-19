@@ -7,7 +7,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockHCaptchaFlutterPlatform
     with MockPlatformInterfaceMixin
     implements HCaptchaFlutterPlatform {
-
   @override
   void setMethodCallHandler(FlutterPluginHandler handler) {
     // TODO: implement setMethodCallHandler
@@ -18,7 +17,8 @@ class MockHCaptchaFlutterPlatform
 }
 
 void main() {
-  final HCaptchaFlutterPlatform initialPlatform = HCaptchaFlutterPlatform.instance;
+  final HCaptchaFlutterPlatform initialPlatform =
+      HCaptchaFlutterPlatform.instance;
 
   test('$MethodChannelHCaptchaFlutter is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelHCaptchaFlutter>());

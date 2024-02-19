@@ -7,7 +7,8 @@ import 'hcaptcha_flutter_platform_interface.dart';
 class MethodChannelHCaptchaFlutter extends HCaptchaFlutterPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('plugins.kjxbyz.com/hcaptcha_flutter_plugin');
+  final methodChannel =
+      const MethodChannel('plugins.kjxbyz.com/hcaptcha_flutter_plugin');
 
   @override
   void setMethodCallHandler(FlutterPluginHandler handler) {

@@ -6,10 +6,12 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   // MethodChannelDxCaptchaFlutter platform = MethodChannelDxCaptchaFlutter();
-  const MethodChannel channel = MethodChannel('plugins.kjxbyz.com/dxcaptcha_flutter_plugin');
+  const MethodChannel channel =
+      MethodChannel('plugins.kjxbyz.com/dxcaptcha_flutter_plugin');
 
   setUp(() {
-    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(
       channel,
       (MethodCall methodCall) async {
         return '42';
@@ -18,7 +20,8 @@ void main() {
   });
 
   tearDown(() {
-    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, null);
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(channel, null);
   });
 
   test('show', () async {

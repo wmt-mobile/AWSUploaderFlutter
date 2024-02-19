@@ -1,5 +1,5 @@
 name: dxcaptcha_flutter
-description: "DingXiang Captcha for Flutter"
+description: "Ding Xiang Captcha for Flutter. Ding Xiang Captcha can be used in flutter, please refer to [more configuration](https://www.dingxiang-inc.com/business/captcha)"
 version: 0.0.1+1
 homepage: https://www.kjxbyz.com/flutterfleet
 repository: https://github.com/FlutterFleet/FlutterFleet/tree/main/packages/dxcaptcha_flutter

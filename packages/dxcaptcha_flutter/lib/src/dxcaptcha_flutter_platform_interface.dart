@@ -29,5 +29,4 @@ abstract class DxCaptchaFlutterPlatform extends PlatformInterface {
   void setMethodCallHandler(FlutterPluginHandler handler);
 
   Future<void> show(Map<String, dynamic> config);
-
 }

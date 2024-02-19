@@ -7,7 +7,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockDxCaptchaFlutterPlatform
     with MockPlatformInterfaceMixin
     implements DxCaptchaFlutterPlatform {
-
   @override
   void setMethodCallHandler(FlutterPluginHandler handler) {
     // TODO: implement setMethodCallHandler
@@ -18,7 +17,8 @@ class MockDxCaptchaFlutterPlatform
 }
 
 void main() {
-  final DxCaptchaFlutterPlatform initialPlatform = DxCaptchaFlutterPlatform.instance;
+  final DxCaptchaFlutterPlatform initialPlatform =
+      DxCaptchaFlutterPlatform.instance;
 
   test('$MethodChannelDxCaptchaFlutter is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelDxCaptchaFlutter>());
