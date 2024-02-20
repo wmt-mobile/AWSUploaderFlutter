@@ -1,3 +1,7 @@
+## 0.0.1+2
+
+* feat: add `getRegistrationID()`.
+
 ## 0.0.1+1
 
 * fix: renamed to jpush_flutter2.
