@@ -3,7 +3,7 @@
 # Run `pod lib lint jpush_flutter.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'jpush_flutter'
+  s.name             = 'jpush_flutter2'
   s.version          = '0.0.1'
   s.summary          = 'JPush for Flutter.'
   s.description      = <<-DESC

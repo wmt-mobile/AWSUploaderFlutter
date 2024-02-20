@@ -1,5 +1,5 @@
-framework module jpush_flutter {
-  umbrella header "jpush_flutter-umbrella.h"
+framework module jpush_flutter2 {
+  umbrella header "jpush_flutter2-umbrella.h"
 
   export *
   module * { export * }

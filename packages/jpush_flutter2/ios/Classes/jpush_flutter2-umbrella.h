@@ -1,5 +1,5 @@
 //
-//  jpush_flutter-umbrella.h
+//  jpush_flutter2-umbrella.h
 //
 //  Created by Ying Wang on 2023/12/08.
 //
