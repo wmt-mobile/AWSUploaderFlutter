@@ -1,3 +1,7 @@
+## 0.0.1+3
+
+* fix: app crash on ios.
+
 ## 0.0.1+2
 
 * feat: add `getRegistrationID()`.

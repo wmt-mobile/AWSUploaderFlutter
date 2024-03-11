@@ -327,25 +327,27 @@ NSString * const FlutterMethodCallBadRequest = @"FlutterMethodCallBadRequest";
   
   if (launchOptions != nil) {
     NSDictionary *remoteNotification = [launchOptions objectForKey: UIApplicationLaunchOptionsRemoteNotificationKey];
-    NSDictionary *aps = [remoteNotification objectForKey:@"aps"];
-    NSNumber *badge = [remoteNotification valueForKey:@"badge"];
-    NSDictionary *alert = [aps objectForKey:@"alert"];
-    NSString *title = [alert valueForKey:@"title"];
-    NSString *body = [alert valueForKey:@"body"];
-    
-    NSMutableDictionary* data = [[NSMutableDictionary alloc] init];
-    [data setValue:title forKey:@"title"];
-    [data setValue:body forKey:@"body"];
-    [data setValue:badge forKey:@"badge"];
-    [data setObject:remoteNotification forKey:@"extras"];
-    
-    NSString *jsonString = [[NSString alloc] initWithData:[NSJSONSerialization dataWithJSONObject:data options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding];
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-      if (self.channel != nil) {
-        [self.channel invokeMethod:@"notificationClick" arguments:jsonString];
-      }
-    });
+    if (remoteNotification != nil) {
+      NSDictionary *aps = [remoteNotification objectForKey:@"aps"];
+      NSNumber *badge = [remoteNotification valueForKey:@"badge"];
+      NSDictionary *alert = [aps objectForKey:@"alert"];
+      NSString *title = [alert valueForKey:@"title"];
+      NSString *body = [alert valueForKey:@"body"];
+      
+      NSMutableDictionary* data = [[NSMutableDictionary alloc] init];
+      [data setValue:title forKey:@"title"];
+      [data setValue:body forKey:@"body"];
+      [data setValue:badge forKey:@"badge"];
+      [data setObject:remoteNotification forKey:@"extras"];
+      
+      NSString *jsonString = [[NSString alloc] initWithData:[NSJSONSerialization dataWithJSONObject:data options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding];
+      
+      dispatch_async(dispatch_get_main_queue(), ^{
+        if (self.channel != nil) {
+          [self.channel invokeMethod:@"notificationClick" arguments:jsonString];
+        }
+      });
+    }
   }
   
   return YES;
