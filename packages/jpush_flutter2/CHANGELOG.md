@@ -1,3 +1,9 @@
+## 0.0.1+4
+
+* chore: upgrade ios sdk to 5.2.4.
+* chore: upgrade android sdk to 5.2.4.
+* fix: add privacy manifest file.
+
 ## 0.0.1+3
 
 * fix: app crash on ios.

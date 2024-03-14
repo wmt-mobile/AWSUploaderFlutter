@@ -18,10 +18,11 @@ JPush for Flutter.
   s.module_map = 'Classes/JPushFlutterPlugin.modulemap'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'JPush', '5.2.0'
+  s.dependency 'JPush', '5.2.4'
   s.platform = :ios, '11.0'
   s.ios.deployment_target = '11.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.resource_bundles = {'jpush_flutter2_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end

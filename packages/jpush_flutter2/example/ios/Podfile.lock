@@ -1,11 +1,11 @@
 PODS:
   - Flutter (1.0.0)
-  - JCore (4.6.0)
-  - JPush (5.2.0):
+  - JCore (4.6.2)
+  - JPush (5.2.4):
     - JCore (>= 2.0.0)
   - jpush_flutter2 (0.0.1):
     - Flutter
-    - JPush (= 5.2.0)
+    - JPush (= 5.2.4)
   - permission_handler_apple (9.1.1):
     - Flutter
 
@@ -29,11 +29,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  JCore: bfb281ba5fbf3d3e50ccb36bb41d54e0e99312df
-  JPush: 76668b765fcfd7c15f86b05ca0e5cdc01945ce23
-  jpush_flutter2: 2488e8a5b1f4a85a07aa495d7a5d8e5ffea8f097
+  JCore: 024c73b04e110b496e93d8c127ea9cd1ed934e4c
+  JPush: c3c6e328b39a7dd78cf6b1a7d072af1a9a1974bd
+  jpush_flutter2: 70c200aef627cd2dfc6558d79ec2b02405a23cfc
   permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
 
 PODFILE CHECKSUM: 1dca56c5899cd39e41508d3683261ce6919b603a
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
