@@ -80,7 +80,7 @@ export default function Home({
         >
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800 dark:bg-black dark:text-white/80"
-            href="https://github.com/flutterfleet"
+            href="https://github.com/FlutterFleet"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -121,7 +121,7 @@ const features = [
   {
     title: "Aliyun OSS",
     description:
-      "Aliyun OSS API for Dart. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/aliyun_oss)",
+      "Aliyun OSS API for Dart. ![Pub Version](https://img.shields.io/pub/v/flutter_aliyun_oss)",
     demo: (
       <SiAlibabacloud className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -131,7 +131,7 @@ const features = [
   {
     title: "AWS S3",
     description:
-      "AWS S3 API for Dart. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/minio)",
+      "AWS S3 API for Dart. ![Pub Version](https://img.shields.io/pub/v/minio_flutter)",
     demo: (
       <FaAws className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -141,7 +141,7 @@ const features = [
   {
     title: "DxCaptcha Flutter",
     description:
-      "Dingxiang Captcha for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/dxcaptcha_flutter)",
+      "Dingxiang Captcha for Flutter. ![Pub Version](https://img.shields.io/pub/v/dxcaptcha_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -151,7 +151,7 @@ const features = [
   {
     title: "HCaptcha Flutter",
     description:
-      "HCaptcha for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/hcaptcha_flutter)",
+      "HCaptcha for Flutter. ![Pub Version](https://img.shields.io/pub/v/hcaptcha_flutter)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
@@ -160,7 +160,7 @@ const features = [
   {
     title: "JPush Flutter",
     description:
-      "JPush for Flutter. ![GitHub tag](https://img.shields.io/github/v/tag/FlutterFleet/jpush_flutter)",
+      "JPush for Flutter. ![Pub Version](https://img.shields.io/pub/v/jpush_flutter2)",
     demo: (
       <SiFlutter className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
     ),
