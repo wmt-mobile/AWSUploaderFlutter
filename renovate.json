@@ -10,17 +10,6 @@
       "matchPackageNames": ["@types/node"]
     },
     {
-      "allowedVersions": "2",
-      "matchPackageNames": ["tsparticles"]
-    },
-    {
-      "allowedVersions": "18",
-      "matchPackageNames": [
-        "@commitlint/cli",
-        "@commitlint/config-conventional"
-      ]
-    },
-    {
       "matchPackageNames": ["flutter", "dart"],
       "groupName": "flutter"
     }
