@@ -16,7 +16,7 @@ dependencies:
   meta: ^1.10.0
   mime: ^1.0.5
   path: ^1.8.3
-  xml: ^6.3.0
+  xml: ^6.5.0
 
 dev_dependencies:
   html: ^0.15.4
